@@ -1,0 +1,101 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+}
+
+.ui.cards .card img {
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.vertical-text {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-size: 2em !important;
+    font-weight: bold;
+    background: #3185FC !important;
+    width: 70px !important;
+
+}
+
+.vertical-text1 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-size: 2em !important;
+    font-weight: bold;
+    background: rgb(242, 95, 92) !important;
+    max-width: 63px !important;
+}
+
+/* Frame */
+.frame {
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+    .frame ul {
+        list-style: none;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+
+        .frame ul li.card {
+            margin: 0 !important;
+            width: 260px !important;
+        }
+
+        .frame ul li {
+            cursor: url(../img/cursor.png),auto;
+        }
+
+.dd {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .dd i {
+        margin-top: 250px !important;
+        color: #fff !important;
+    }
+
+#trailers .column {
+    padding: 0 !important;
+    background: #eed974;
+}
+
+.footer {
+    height: 30% !important;
+}
+
+@media all and (min-width: 1001px) {
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+    #sidebar ul li a:before {
+        content: "Email: ";
+        font-style: italic;
+        color: #666;
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    vertical-text {
+        display: none;
+    }
+}
